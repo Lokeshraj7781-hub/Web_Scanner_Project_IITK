@@ -2,7 +2,7 @@
 
 A lightweight, efficient Python-based web scanning tool designed to automate security audits, discover vulnerabilities, and map web applications.
 
-## 🚀 Features
+##  Features
 
 * **Port Scanning:** Fast multi-threaded scanning for open ports and services.
 * **Directory Busting:** Brute-forces hidden directories and files using a custom wordlist.
@@ -10,7 +10,7 @@ A lightweight, efficient Python-based web scanning tool designed to automate sec
 * **Subdomain Enumeration:** Discovers active subdomains to map the target's attack surface.
 * **Clean Output:** Generates structured terminal output and logs results to a file.
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 Ensure you have Python 3.8+ installed on your system.
@@ -34,7 +34,7 @@ Ensure you have Python 3.8+ installed on your system.
    ```
    *(Note: Create a requirements.txt file listing external libraries like `requests`, `beautifulsoup4`, or `colorama` if your script uses them).*
 
-## 💻 Usage
+## Usage
 
 Run the scanner directly from your terminal by specifying a target domain or IP address:
 
@@ -50,7 +50,7 @@ python scanner.py --target example.com --scan all
 | `--port` | Specific port or range to check | `80,443` or `1-1000` |
 | `--output` | Save the scan results to a specific text/JSON file | `results.txt` |
 
-## 📊 Sample Output
+## Sample Output
 
 ```text
 [+] Starting scan on target: example.com
